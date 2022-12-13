@@ -24,6 +24,52 @@ body {
   background-color: #fff;
 }
 
+.menu {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.4s ease;
+}
+
+.cato:hover + .menu {
+  height: 300px;
+}
+
+.cato {
+  margin: 30px;
+}
+
+.cato img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu2 {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.4s ease;
+}
+
+.cato2:hover + .menu2 {
+  height: 300px;
+}
+
+.cato2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cato2 {
+  margin: 30px;
+}
+
+.nam {
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+
 /* Typography */
 h1,
 h2,
